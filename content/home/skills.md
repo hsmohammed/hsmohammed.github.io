@@ -22,12 +22,21 @@ feature:
   name: R
 - description: 
   icon: python
-  icon_pack: fas
+  icon_pack: fab
   name: Python
+- description: 
+  icon: java
+  icon_pack: fab
+  name: Java
+- description: 
+  icon: aws
+  icon_pack: fab
+  name: AWS
 - description: 
   icon: chart-line
   icon_pack: fas
   name: Statistics
+
 
 
 # Uncomment to use emoji icons.
