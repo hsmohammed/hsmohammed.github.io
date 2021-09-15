@@ -32,24 +32,24 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Compile and analyze big datasets of structured and unstructured data
-        * Develop computer vision algorithms for video data extraction
-        * Build Machine learning and econometric models and run simulations
-        * Create effective data visualizations
-        * Design and implement control experiments
-        * Collaborate producing research publications and conference presentations
+        # * Compile and analyze big datasets of structured and unstructured data
+        # * Develop computer vision algorithms for video data extraction
+        # * Build Machine learning and econometric models and run simulations
+        # * Create effective data visualizations
+        # * Design and implement control experiments
+        # * Collaborate producing research publications and conference presentations
         
   - title: Teaching Assistant
     company: Master of Data Science Program, University of British Columbia
     company_url: 'https://masterdatascience.ubc.ca/'
-    company_logo: org-UBC-MDS
+    company_logo: org-MDS
     location: Vancouver, BC, Canada
     date_start: '2017-01-01'
     date_end: ''
     description: |2-
         Responsibilities include:
-        * Preparing tutorials, marking assignments, holding office hours and manage labs
-        * TA’ed courses: Descriptive Statistics and Probability for Data Science, Data Visualization I, Data Visualization II, Statistical Inference and Computation I, Data Science Workflows, Feature and Model Selection, Collaborative Software Development, Experimentation and Causal Inference, Privacy, Ethics, and Security, Spatial and Temporal Models, Web and Cloud Computing, Regression II, Business Applications of Machine Learning, Exploratory Data Analysis
+        # * Preparing tutorials, marking assignments, holding office hours and manage labs
+        # * TA’ed courses
 
 design:
   columns: '2'
