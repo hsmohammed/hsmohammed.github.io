@@ -22,28 +22,34 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Research Data Sceintist
+    company: Department of Civil Engineering, University of British Columbia
+    company_url: 'https://www.civil.ubc.ca/'
+    company_logo: org-UBC
+    location: Vancouver, BC, Canada
+    date_start: '2017-01-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Compile and analyze big datasets of structured and unstructured data
+        * Develop computer vision algorithms for video data extraction
+        * Build Machine learning and econometric models and run simulations
+        * Create effective data visualizations
+        * Design and implement control experiments
+        * Collaborate producing research publications and conference presentations
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Teaching Assistant
+    company: Master of Data Science Program, University of British Columbia
+    company_url: 'https://masterdatascience.ubc.ca/'
+    company_logo: org-UBC-MDS
+    location: Vancouver, BC, Canada
+    date_start: '2017-01-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        * Preparing tutorials, marking assignments, holding office hours and manage labs
+        * TA’ed courses: Descriptive Statistics and Probability for Data Science, Data Visualization I, Data Visualization II, Statistical Inference and Computation I, Data Science Workflows, Feature and Model Selection, Collaborative Software Development, Experimentation and Causal Inference, Privacy, Ethics, and Security, Spatial and Temporal Models, Web and Cloud Computing, Regression II, Business Applications of Machine Learning, Exploratory Data Analysis
 
 design:
   columns: '2'
