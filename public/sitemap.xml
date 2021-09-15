@@ -2,150 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/</loc>
+    <loc>https://academic-demo.netlify.app/courses/example/python/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/courses/example/visualization/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/courses/example/stats/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/talk/example-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/event/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/courses/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/courses/example/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/authors/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/nelson-bighetti/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/tags/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2020/12/hello-r-markdown/</loc>
+    <loc>https://academic-demo.netlify.app/tag/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/</loc>
+    <loc>https://academic-demo.netlify.app/category/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/plot/</loc>
+    <loc>https://academic-demo.netlify.app/tag/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/posts/</loc>
+    <loc>https://academic-demo.netlify.app/tag/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://academic-demo.netlify.app/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication-type/3/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication_types/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/google-analytics/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/tag/source-themes/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/gravatar/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/hexo-theme/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/releases/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/responsive/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/tranquilpeak/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/tag/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2015/06/welcome-to-tranquilpeak-0.5.2-beta/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/showcase/</loc>
-    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2015/06/who-is-using-tranquilpeak-hugo-theme/</loc>
-    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2015/05/elements-showcase/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication-type/2/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/html-elements/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/robert-ford/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/markdown/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication-type/1/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/cover-image/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2015/05/cover-image-showcase/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/github-theme/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/highlight-code/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2015/03/highlighted-code-showcase/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/test/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/tag-plugins/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2014/10/tags-plugins-showcase/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2014/08/hidden-social-section-showcase/</loc>
-    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/social/</loc>
-    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2014/08/hidden-tag-section-showcase/</loc>
-    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/tags/</loc>
-    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2014/08/hidden-pagination-showcase/</loc>
-    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/pagination/</loc>
-    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/dailymotion/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2014/08/video-integrations-showcase/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/videos-integration/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/vimeo/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/youtube/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/chinese/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2013/10/chinese-test/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/image-gallery/</loc>
-    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2013/02/image-gallery-showcase/</loc>
-    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/japanese/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/2013/01/japanese-test/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/archives/</loc>
+    <loc>https://academic-demo.netlify.app/admin/</loc>
   </url>
 </urlset>

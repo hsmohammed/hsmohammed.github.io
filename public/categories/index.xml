@@ -1,56 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo tranquilpeak theme</title>
-    <link>https://hossameldinmohammed.netlify.app/categories/</link>
-    <description>Recent content in Categories on Hugo tranquilpeak theme</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://hossameldinmohammed.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R</title>
-      <link>https://hossameldinmohammed.netlify.app/categories/r/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://hossameldinmohammed.netlify.app/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>releases</title>
-      <link>https://hossameldinmohammed.netlify.app/categories/releases/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hossameldinmohammed.netlify.app/categories/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>https://hossameldinmohammed.netlify.app/categories/tranquilpeak/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hossameldinmohammed.netlify.app/categories/tranquilpeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>showcase</title>
-      <link>https://hossameldinmohammed.netlify.app/categories/showcase/</link>
-      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hossameldinmohammed.netlify.app/categories/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>https://hossameldinmohammed.netlify.app/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hossameldinmohammed.netlify.app/categories/features/</guid>
-      <description></description>
-    </item>
+    <title>Categories | Academic</title>
+    <link>https://academic-demo.netlify.app/categories/</link>
+      <atom:link href="https://academic-demo.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Categories</title>
+      <link>https://academic-demo.netlify.app/categories/</link>
+    </image>
     
   </channel>
 </rss>
