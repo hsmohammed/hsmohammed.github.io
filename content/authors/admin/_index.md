@@ -46,4 +46,4 @@ title: Hossameldin Mohammed
 Hossameldin Mohammed is a PhD candidate and research assistant at the University of British Columbia. His research interests include traffic safety, traffic simulation, transportation demand modeling, generative machine learning, imitation learning, deep learning and experimental design.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
