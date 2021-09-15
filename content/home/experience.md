@@ -29,15 +29,7 @@ experience:
     location: Vancouver, BC, Canada
     date_start: '2017-01-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        # * Compile and analyze big datasets of structured and unstructured data
-        # * Develop computer vision algorithms for video data extraction
-        # * Build Machine learning and econometric models and run simulations
-        # * Create effective data visualizations
-        # * Design and implement control experiments
-        # * Collaborate producing research publications and conference presentations
+    description: 
         
   - title: Teaching Assistant
     company: Master of Data Science Program, University of British Columbia
@@ -46,11 +38,7 @@ experience:
     location: Vancouver, BC, Canada
     date_start: '2017-01-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        # * Preparing tutorials, marking assignments, holding office hours and manage labs
-        # * TA’ed courses
-
+    description: 
 design:
   columns: '2'
 ---
