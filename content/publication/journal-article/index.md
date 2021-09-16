@@ -12,10 +12,6 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-image:
-  caption:
-  focal_point: ""
-  preview_only: false
 projects: []
 publication: '*Transportation research part C: emerging technologies 98 (2019): 139-151'
 publication_short: ""
