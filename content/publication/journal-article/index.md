@@ -24,13 +24,13 @@ tags:
 - Source Themes
 title: Characterization of bicycle following and overtaking maneuvers on cycling paths
 url_code: "https://www.sciencedirect.com/science/article/pii/S0968090X18309823"
-url_dataset: 
-url_pdf: 
-url_poster: 
-url_project: 
-url_slides: 
-url_source: 
-url_video: 
+url_dataset: ""
+url_pdf: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
 ---
 
 
