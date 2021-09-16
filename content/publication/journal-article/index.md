@@ -25,9 +25,9 @@ summary: A better understanding of cyclist behavior during various interactions 
 tags:
 - Source Themes
 title: Characterization of bicycle following and overtaking maneuvers on cycling paths
-url_code: ""
+url_code: "https://www.sciencedirect.com/science/article/pii/S0968090X18309823"
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: 
 url_poster: ""
 url_project: ""
 url_slides: ""
