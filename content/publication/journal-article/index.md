@@ -9,13 +9,13 @@ authors:
 - Tarek Sayed
 date: "2015-09-01T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Source Themes, 1*(1)'
+publication: '*Transportation research part C: emerging technologies 98 (2019): 139-151'
 publication_short: ""
 publication_types:
 - "2"
