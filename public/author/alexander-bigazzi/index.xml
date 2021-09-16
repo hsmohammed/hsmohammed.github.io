@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Bigazzi | Hossameldin Mohammed</title>
+    <link>https://hossameldinmohammed.netlify.app/author/alexander-bigazzi/</link>
+      <atom:link href="https://hossameldinmohammed.netlify.app/author/alexander-bigazzi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Bigazzi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hossameldinmohammed.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Alexander Bigazzi</title>
+      <link>https://hossameldinmohammed.netlify.app/author/alexander-bigazzi/</link>
+    </image>
+    
+    <item>
+      <title>Microscopic modeling of cyclists on off-street paths: a stochastic imitation learning approach</title>
+      <link>https://hossameldinmohammed.netlify.app/publication/journal-article2/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hossameldinmohammed.netlify.app/publication/journal-article2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unconstrained Cyclist Trajectory Simulation for agent-based models</title>
+      <link>https://hossameldinmohammed.netlify.app/publication/conference-paper2/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://hossameldinmohammed.netlify.app/publication/conference-paper2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of bicycle following and overtaking maneuvers on cycling paths</title>
+      <link>https://hossameldinmohammed.netlify.app/publication/journal-article/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hossameldinmohammed.netlify.app/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward agent-based microsimulation of cyclist following behavior: Estimation of reward function parameters using inverse reinforcement learning</title>
+      <link>https://hossameldinmohammed.netlify.app/publication/conference-paper/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hossameldinmohammed.netlify.app/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
