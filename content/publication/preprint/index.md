@@ -1,48 +1,34 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Accurate modeling of bicycles in traffic calls for taking into account individualistic actions and behavioural schemes in different scenarios. Bicycle traffic is characterized by possessing significant unobserved heterogeneity, with the differences between individual cyclists driving how cyclists behave as a group. A Generative Variational Autoencoder-based model is developed to serve for two purposes. First, the encoder part summarizes the individual differences between unconstrained cyclists to a more compact latent dimension layer. Second, a decoder part where a trajectory is reconstructed using only coordinates of that compact latent layer. Different groups representing different styles of cyclists are identified using Gaussian mixture model (GMM) clustering. The model proved high reconstruction accuracy with a root mean square error of about 0.32 meters. Latent variables were clustered into four classes representing different styles of cyclists. When reflecting the clustering results on motion variables, such as speed, acceleration, jerk and directions angles, were shown to produce clearly different distributions. The model and results could help elevating the accuracy of bicycle microsimulation models and gain deeper understanding on the heterogeneity in bicycle traffic behaviour.
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- Alexander Bigazzi
+- Tarek Sayed
+date: "2021-12-07T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 links:
-- name: Custom Link
-  url: http://example.org
 projects:
-- internal-project
 publication: ""
 publication_short: ""
 publication_types:
 - "3"
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-12-07T00:00:00Z"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Accurate modeling of bicycles in traffic calls for taking into account individualistic actions and behavioural schemes in different scenarios. Bicycle traffic is characterized by possessing significant unobserved heterogeneity, with the differences between individual cyclists driving how cyclists behave as a group. A Generative Variational Autoencoder-based model is developed to serve for two purposes. First, the encoder part summarizes the individual differences between unconstrained cyclists to a more compact latent dimension layer. Second, a decoder part where a trajectory is reconstructed using only coordinates of that compact latent layer. Different groups representing different styles of cyclists are identified using Gaussian mixture model (GMM) clustering. The model proved high reconstruction accuracy with a root mean square error of about 0.32 meters. Latent variables were clustered into four classes representing different styles of cyclists. When reflecting the clustering results on motion variables, such as speed, acceleration, jerk and directions angles, were shown to produce clearly different distributions. The model and results could help elevating the accuracy of bicycle microsimulation models and gain deeper understanding on the heterogeneity in bicycle traffic behaviour.
 tags:
 - Source Themes
-title: An example preprint / working paper
-url_code: '#'
-url_dataset: '#'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_poster: '#'
+title: Variational inference-based generative unconstrained bicycle trajectories microsimulation
+url_code: ''
+url_dataset: ''
+url_pdf: 
+url_poster: ''
 url_project: ""
 url_slides: ""
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
