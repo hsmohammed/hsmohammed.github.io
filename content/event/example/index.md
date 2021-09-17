@@ -34,7 +34,6 @@ links:
   url: https://twitter.com/Hossameldin400
 location: Online
 projects:
-- internal-project
 publishDate: "2021-03-02T15:00:00Z"
 slides: 
 summary: Recent developments in deep learning algorithms such as generative adversarial networks (GANs) (Goodfellow et. al. 2014) has created a paradigm shift in architectural generative design. Advantages of GANs over traditional generative algorithms include the ability to generate and manipulate infinite number of unique surfaces. Training of such models include feeding a large library of surfaces into the network, the model then learns the important patterns and features of the training data to generate realistic examples. The model can be divided into a generator and a discriminator. The generator objective is to learn how to generate representations of the input training examples that can “deceive” the discriminator. The discriminator is a universal function approximator that outputs a probability of an input surface to be real or fake. As more and more training epochs are passed, a minimax loss function is minimized that allows for the generator to create surfaces that are close as possible to the real ones, and the discriminator to not be able to differentiate between real and fake images. 
