@@ -38,7 +38,7 @@ What if these measures were not implemented at that time? What if they had been 
 tags: []
 title: Exploring the impact of British Columbia’s November interventions on the spread of COVID-19
 url_code: ""
-url_pdf: ""
+url_pdf: "https://drive.google.com/file/d/1wn7X2SqY8CDwGE3QPdLOI1uREiV1Ce_O/view?usp=sharing"
 url_slides: ""
 url_video: ""
 ---
