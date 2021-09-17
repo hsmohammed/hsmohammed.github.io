@@ -34,7 +34,7 @@ slides:
 summary: "Public morale was low in BC during the peak of the COVID-19 pandemic in November 2020, as a second wave of infections was imminent Two substantial social distancing interventions were implemented within two weeks of each other to curve rising numbers of COVID-19 prior to the holidays:
 - November 7th: Restricted private gatherings between households
 - November 19th: Mandatory masks all public spaces, and non-essential travel was heavily discouraged
-What if these measures were not implemented at that time? What if they had been implemented sooner? How would daily case numbers have be impacted in these scenarios?  We explored these possibilities using a compartmental SEIR model in R, focusing on October 1st to December 15th""
+What if these measures were not implemented at that time? What if they had been implemented sooner? How would daily case numbers have be impacted in these scenarios?  We explored these possibilities using a compartmental SEIR model in R, focusing on October 1st to December 15th"
 tags: []
 title: Exploring the impact of British Columbia’s November interventions on the spread of COVID-19
 url_code: ""
