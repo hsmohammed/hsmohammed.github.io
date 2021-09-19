@@ -7,9 +7,9 @@ output:
     code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+<!-- ```{r setup, include=FALSE} -->
+<!-- knitr::opts_chunk$set(collapse = TRUE) -->
+<!-- ``` -->
 
 # Introduction
 
@@ -33,7 +33,7 @@ suppressPackageStartupMessages(library(plotly))
 
 # Reading the data
 
-```{r message = FALSE,  warning=FALSE}
+```{r message = FALSE,  warning=FALSE, results="hide"}
 
 COVID_confirmed_global_raw <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv") 
 COVID_deaths_global_raw <-  read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv") 
@@ -176,113 +176,113 @@ country_summary("France")
 
 ```
 
-# Donut plot
+<!-- # Donut plot -->
 
-```{r warning=FALSE}
-
-
-df <- COVID_confirmed_global_longer %>% mutate(country_sum = ifelse(n_cases > 5000, country,"other"))
-df <- df %>% group_by(country_sum)
-df <- df %>% summarize(count = max(n_cases))
-fig <- df %>% plot_ly(labels = ~country_sum, values = ~count, text = ~country_sum)
-fig <- fig %>% add_pie(hole = 0.4)
-fig <- fig %>% layout(title = "Confirmed cases worldwide",  showlegend = F,
-                      xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-                      yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
-
-fig
-```
-
-# Multi-dimensional bar-chart
-
-```{r}
-
-COVID_confirmed_global_longer %>%
-  group_by(country) %>%
-  plot_ly(x = ~date, y = ~n_cases, color = ~country) %>%
-  add_bars(text = ~country)%>%
-  layout(barmode = "stack",
-         showlegend = FALSE) 
-
-  
-```
+<!-- ```{r warning=FALSE} -->
 
 
-# A function for plotting COVID-19 cases for different countries
+<!-- df <- COVID_confirmed_global_longer %>% mutate(country_sum = ifelse(n_cases > 5000, country,"other")) -->
+<!-- df <- df %>% group_by(country_sum) -->
+<!-- df <- df %>% summarize(count = max(n_cases)) -->
+<!-- fig <- df %>% plot_ly(labels = ~country_sum, values = ~count, text = ~country_sum) -->
+<!-- fig <- fig %>% add_pie(hole = 0.4) -->
+<!-- fig <- fig %>% layout(title = "Confirmed cases worldwide",  showlegend = F, -->
+<!--                       xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE), -->
+<!--                       yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE)) -->
 
-```{r warning=FALSE}
-plot_countries <- function(df, curve_title, cumulative=TRUE, ...) {
-  df1 <- df %>% 
-    dplyr::filter(country %in% list(...))
-  
-  if (cumulative) {
-  p1 = ggplot(df1, aes(date, n_cases, group=country, color=country))+
-    geom_line()+
-    scale_x_date(date_breaks = "3 days")+
-    scale_y_log10(labels = function(x) format(x, scientific = FALSE),
-                  name = "number of cases",
-                  breaks = scales::breaks_log(n = 10))+
-    theme_bw()+
-    theme(axis.text.x = element_text(angle = 90), legend.position = "none")+
-    ggtitle(curve_title)+
-      geom_dl(data = df1, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8))
-  } else{
-  p1 = ggplot(df1, aes(date, new_cases, group=country, color=country))+
-    geom_line()+
-    scale_x_date(date_breaks = "3 days")+
-    scale_y_log10(labels = function(x) format(x, scientific = FALSE),
-                  name = "number of cases",
-                  breaks = scales::breaks_log(n = 10))+
-    theme_bw()+
-    theme(axis.text.x = element_text(angle = 90), legend.position = "none")+
-    ggtitle(curve_title)+
-      geom_dl(data = df1, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8))
-  }
-  
+<!-- fig -->
+<!-- ``` -->
 
-    
-  return(p1)
-}
+<!-- # Multi-dimensional bar-chart -->
 
-plot_countries(COVID_confirmed_global_longer, curve_title = "Confirmed cases (cumulative)", cumulative = TRUE, "US", "Italy", "Canada", "Egypt",  "china")
-plot_countries(COVID_deaths_global_longer, curve_title = "Death cases (cumulative)", cumulative = TRUE,"US", "Italy", "Canada", "Egypt",  "china")
-plot_countries(COVID_recovered_global_longer, curve_title = "Recovered cases (cumulative)",cumulative = TRUE, "china","US", "Italy", "Canada", "Egypt",  "china")
+<!-- ```{r} -->
 
-plot_countries(COVID_confirmed_global_longer, curve_title = "New confirmed cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china")
-plot_countries(COVID_deaths_global_longer, curve_title = "New death cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china")
-plot_countries(COVID_recovered_global_longer, curve_title = "New recovered cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china")
+<!-- COVID_confirmed_global_longer %>% -->
+<!--   group_by(country) %>% -->
+<!--   plot_ly(x = ~date, y = ~n_cases, color = ~country) %>% -->
+<!--   add_bars(text = ~country)%>% -->
+<!--   layout(barmode = "stack", -->
+<!--          showlegend = FALSE)  -->
 
 
-```
+<!-- ``` -->
 
-# Visualizing confirmed cases with new cases
-Inspired by [this minuteearth video](https://www.youtube.com/watch?v=54XLXg4fYsc&feature=youtu.be&fbclid=IwAR2WColkqpGMjnFwuKsTc2oEaYg9yfc2hZomaW89Q5sv46l-cv9u5tmKhmw). The thing about this visualization is that it doesn't plot the Cumulative number of confirmed cases with time, instead with the number of new cases on a log-scale, which is more intuitive. Multiple comparisons between countries with very different number of cases could be very made very clear, and it is very easy to detect whether things are getting better.
 
-```{r warning=FALSE}
-COVID_confirmed_smoothed <- COVID_confirmed_global_longer %>% 
-  tidyr::nest(-country) %>% 
-  dplyr::mutate(m = purrr::map(data, loess,
-                                               formula = new_cases ~ n_cases, span = 0.4),
-                fitted = purrr::map(m, `[[`, "fitted"))
+<!-- # A function for plotting COVID-19 cases for different countries -->
 
-COVID_confirmed_smoothed <- COVID_confirmed_smoothed %>%
-  dplyr::select(-m) %>%
-  tidyr::unnest()
+<!-- ```{r warning=FALSE} -->
+<!-- plot_countries <- function(df, curve_title, cumulative=TRUE, ...) { -->
+<!--   df1 <- df %>%  -->
+<!--     dplyr::filter(country %in% list(...)) -->
 
-COVID_confirmed_smoothed2 <- COVID_confirmed_smoothed %>% 
-  dplyr::filter(country %in% c("US", "China", "Italy", "Korea, South", "Iran", "Egypt", "Spain", "Germany", "France", "United Kingdom", "Canada"))
+<!--   if (cumulative) { -->
+<!--   p1 = ggplot(df1, aes(date, n_cases, group=country, color=country))+ -->
+<!--     geom_line()+ -->
+<!--     scale_x_date(date_breaks = "3 days")+ -->
+<!--     scale_y_log10(labels = function(x) format(x, scientific = FALSE), -->
+<!--                   name = "number of cases", -->
+<!--                   breaks = scales::breaks_log(n = 10))+ -->
+<!--     theme_bw()+ -->
+<!--     theme(axis.text.x = element_text(angle = 90), legend.position = "none")+ -->
+<!--     ggtitle(curve_title)+ -->
+<!--       geom_dl(data = df1, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8)) -->
+<!--   } else{ -->
+<!--   p1 = ggplot(df1, aes(date, new_cases, group=country, color=country))+ -->
+<!--     geom_line()+ -->
+<!--     scale_x_date(date_breaks = "3 days")+ -->
+<!--     scale_y_log10(labels = function(x) format(x, scientific = FALSE), -->
+<!--                   name = "number of cases", -->
+<!--                   breaks = scales::breaks_log(n = 10))+ -->
+<!--     theme_bw()+ -->
+<!--     theme(axis.text.x = element_text(angle = 90), legend.position = "none")+ -->
+<!--     ggtitle(curve_title)+ -->
+<!--       geom_dl(data = df1, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8)) -->
+<!--   } -->
 
-ggplot(data = COVID_confirmed_smoothed2, aes(n_cases, fitted))+
-  geom_path(data = COVID_confirmed_smoothed2,aes(n_cases,fitted,color = country, group = country))+
-  theme_bw()+
-  ylab("number of cases")+
-  scale_y_log10(labels = function(x) format(x, scientific = FALSE))+
-  scale_x_log10(labels = function(x) format(x, scientific = FALSE))+
-  geom_dl(data = COVID_confirmed_smoothed2, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8))+
-  xlab(label = "Total confirmed cases")+
-  ylab(label = "number of new cases")+
-  theme(legend.position="none")
 
-```
+
+<!--   return(p1) -->
+<!-- } -->
+
+<!-- plot_countries(COVID_confirmed_global_longer, curve_title = "Confirmed cases (cumulative)", cumulative = TRUE, "US", "Italy", "Canada", "Egypt",  "china") -->
+<!-- plot_countries(COVID_deaths_global_longer, curve_title = "Death cases (cumulative)", cumulative = TRUE,"US", "Italy", "Canada", "Egypt",  "china") -->
+<!-- plot_countries(COVID_recovered_global_longer, curve_title = "Recovered cases (cumulative)",cumulative = TRUE, "china","US", "Italy", "Canada", "Egypt",  "china") -->
+
+<!-- plot_countries(COVID_confirmed_global_longer, curve_title = "New confirmed cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china") -->
+<!-- plot_countries(COVID_deaths_global_longer, curve_title = "New death cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china") -->
+<!-- plot_countries(COVID_recovered_global_longer, curve_title = "New recovered cases", cumulative = FALSE,"US", "Italy", "Canada", "Egypt",  "china") -->
+
+
+<!-- ``` -->
+
+<!-- # Visualizing confirmed cases with new cases -->
+<!-- Inspired by [this minuteearth video](https://www.youtube.com/watch?v=54XLXg4fYsc&feature=youtu.be&fbclid=IwAR2WColkqpGMjnFwuKsTc2oEaYg9yfc2hZomaW89Q5sv46l-cv9u5tmKhmw). The thing about this visualization is that it doesn't plot the Cumulative number of confirmed cases with time, instead with the number of new cases on a log-scale, which is more intuitive. Multiple comparisons between countries with very different number of cases could be very made very clear, and it is very easy to detect whether things are getting better. -->
+
+<!-- ```{r warning=FALSE} -->
+<!-- COVID_confirmed_smoothed <- COVID_confirmed_global_longer %>%  -->
+<!--   tidyr::nest(-country) %>%  -->
+<!--   dplyr::mutate(m = purrr::map(data, loess, -->
+<!--                                                formula = new_cases ~ n_cases, span = 0.4), -->
+<!--                 fitted = purrr::map(m, `[[`, "fitted")) -->
+
+<!-- COVID_confirmed_smoothed <- COVID_confirmed_smoothed %>% -->
+<!--   dplyr::select(-m) %>% -->
+<!--   tidyr::unnest() -->
+
+<!-- COVID_confirmed_smoothed2 <- COVID_confirmed_smoothed %>%  -->
+<!--   dplyr::filter(country %in% c("US", "China", "Italy", "Korea, South", "Iran", "Egypt", "Spain", "Germany", "France", "United Kingdom", "Canada")) -->
+
+<!-- ggplot(data = COVID_confirmed_smoothed2, aes(n_cases, fitted))+ -->
+<!--   geom_path(data = COVID_confirmed_smoothed2,aes(n_cases,fitted,color = country, group = country))+ -->
+<!--   theme_bw()+ -->
+<!--   ylab("number of cases")+ -->
+<!--   scale_y_log10(labels = function(x) format(x, scientific = FALSE))+ -->
+<!--   scale_x_log10(labels = function(x) format(x, scientific = FALSE))+ -->
+<!--   geom_dl(data = COVID_confirmed_smoothed2, aes(label = country), method = list(dl.combine("first.points", "last.points"), cex = 0.8))+ -->
+<!--   xlab(label = "Total confirmed cases")+ -->
+<!--   ylab(label = "number of new cases")+ -->
+<!--   theme(legend.position="none") -->
+
+<!-- ``` -->
 
 
