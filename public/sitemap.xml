@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hossameldinmohammed.netlify.app/talk/exploring-the-impact-of-british-columbias-november-interventions-on-the-spread-of-covid-19/</loc>
-    <lastmod>2021-06-10T13:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hossameldinmohammed.netlify.app/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/post/2/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/post/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/talk/exploring-the-impact-of-british-columbias-november-interventions-on-the-spread-of-covid-19/</loc>
     <lastmod>2021-06-10T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/event/</loc>
@@ -14,43 +20,16 @@
     <loc>https://hossameldinmohammed.netlify.app/talk/ai-based-generative-design/</loc>
     <lastmod>2021-03-02T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/authors/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/author/hossameldin-mohammed/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hossameldinmohammed.netlify.app/publication-type/2/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/author/alexander-bigazzi/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/authors/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/author/hossameldin-mohammed/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/publication/journal-article2/</loc>
@@ -65,35 +44,17 @@
     <loc>https://hossameldinmohammed.netlify.app/tag/source-themes/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/author/tarek-sayed/</loc>
+    <loc>https://hossameldinmohammed.netlify.app/tags/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tag/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/category/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tag/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/tag/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <loc>https://hossameldinmohammed.netlify.app/author/tarek-sayed/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/publication-type/1/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/publication/conference-paper2/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hossameldinmohammed.netlify.app/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
@@ -131,6 +92,8 @@
     <loc>https://hossameldinmohammed.netlify.app/admin/</loc>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/publication-type/3/</loc>
+  </url><url>
+    <loc>https://hossameldinmohammed.netlify.app/categories/</loc>
   </url><url>
     <loc>https://hossameldinmohammed.netlify.app/courses/</loc>
   </url><url>
