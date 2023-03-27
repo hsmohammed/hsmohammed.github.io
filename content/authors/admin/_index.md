@@ -4,13 +4,13 @@ education:
   courses:
   - course: PhD in Transportation Engineering
     institution: University of British Columbia
-    year: 2021
+    year: 
   - course: MSc in Transportation Engineering
     institution: Cairo University
-    year: 2016
+    year: 
   - course: BSc in Civil Engineering
     institution: Cairo University
-    year: 2012
+    year: 
 email: "hossam.i.sa@gmail.com"
 highlight_name: true
 interests:
