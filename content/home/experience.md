@@ -41,6 +41,16 @@ experience:
     date_end: '2022-03-01'
     description: |2-
 
+  - title: Adjunct Faculty
+    company: British Columbia Institute of Technology
+    company_url: 'https://www.bcit.ca/'
+    company_logo: 
+    location: Burnaby, BC, Canada
+    date_start: '2021-12-01'
+    date_end: '2022-06-01'
+    description: |2-
+
+
   - title: Research Assistant
     company: Department of Civil Engineering, University of British Columbia
     company_url: 'https://www.civil.ubc.ca/'
@@ -56,7 +66,7 @@ experience:
     company_logo: 
     location: Vancouver, BC, Canada
     date_start: '2017-01-01'
-    date_end: ''
+    date_end: '2022-03-01'
     description: |2-
 
 
