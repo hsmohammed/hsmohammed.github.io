@@ -20,9 +20,9 @@ interests:
 - deep learning
 - experimental design
 organizations:
-- name: University of British Columbia
-  url: https://www.ubc.ca/
-role: PhD candidate - research and teaching assistant
+- name: Sunia Technology Inc.
+  url: https://www.sunia.com/
+role: Machine Learning Engineer
 social:
 - icon: envelope
   icon_pack: fas
