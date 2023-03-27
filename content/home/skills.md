@@ -17,10 +17,6 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 
-  icon: r-project
-  icon_pack: fab
-  name: R
-- description: 
   icon: python
   icon_pack: fab
   name: Python
@@ -33,9 +29,18 @@ feature:
   icon_pack: fab
   name: AWS
 - description: 
+  icon: docker
+  icon_pack: fab
+  name: Docker
+- description: 
   icon: chart-line
   icon_pack: fas
   name: Statistics
+- description: 
+  icon: r-project
+  icon_pack: fab
+  name: R
+
 
 
 
