@@ -23,13 +23,22 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Machine Learning Engineer
+- title: Senior Machine Learning Engineer
+    company: Symend
+    company_url: 'https://www.sunia.com/'
+    company_logo: 
+    location: Burnaby, BC, Canada
+    date_start: '2023-10-15'
+    date_end: ''
+    description: |2-
+
+  - title: Senior Machine Learning Engineer
     company: Sunia Technology Inc.
     company_url: 'https://www.sunia.com/'
     company_logo: 
     location: Burnaby, BC, Canada
     date_start: '2022-03-01'
-    date_end: ''
+    date_end: '2023-10-15'
     description: |2-
 
   - title: Machine Learning Engineer
