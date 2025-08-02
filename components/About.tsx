@@ -50,45 +50,63 @@ export default function About() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              About Me
+              Who We Are
             </h2>
             
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              I'm a Senior Machine Learning Engineer with over 7 years of experience in building 
-              and deploying end-to-end machine learning products. Currently working at Symend, 
-              I specialize in solving complex problems across natural language processing, 
-              computer vision, and automated ML workflows.
+              Lucira AI is a specialized AI consulting firm founded on the principle that 
+              artificial intelligence should be accessible, ethical, and impactful. We believe 
+              in creating AI solutions that not only solve complex business problems but also 
+              contribute positively to society.
             </p>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              My passion lies in translating cutting-edge research into practical business solutions 
-              that drive real value. I've successfully delivered 50+ ML projects, from small-scale 
-              prototypes to enterprise-grade systems serving millions of users.
+              Our mission is to bridge the gap between cutting-edge AI research and practical 
+              business applications, ensuring that every solution we deliver drives measurable 
+              results while maintaining the highest standards of ethics and transparency.
             </p>
 
-            {/* Education */}
+            {/* Founder Bio */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Education</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Founder</h3>
+              <div className="bg-gray-50 rounded-lg p-6">
+                <p className="text-gray-700 mb-4">
+                  Hossameldin Mohammed, Senior Machine Learning Engineer with 7+ years of experience 
+                  in building and deploying end-to-end machine learning products. Currently leading 
+                  ML initiatives at Symend, specializing in NLP, computer vision, and automated ML workflows.
+                </p>
+                <a 
+                  href="#experience" 
+                  className="text-primary-600 hover:text-primary-700 font-medium transition-colors duration-200"
+                >
+                  Read full bio →
+                </a>
+              </div>
+            </div>
+
+            {/* Approach & Philosophy */}
+            <div className="mb-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Approach & Philosophy</h3>
               <div className="space-y-3">
                 <div className="flex items-start">
-                  <div className="w-3 h-3 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">MASc in Machine Learning</div>
-                    <div className="text-gray-600">University of British Columbia</div>
+                    <span className="font-semibold text-gray-900">Ethics First:</span>
+                    <span className="text-gray-600"> Every solution prioritizes ethical AI principles and responsible deployment.</span>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-3 h-3 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">MSc in Engineering</div>
-                    <div className="text-gray-600">Cairo University</div>
+                    <span className="font-semibold text-gray-900">Impact Driven:</span>
+                    <span className="text-gray-600"> We focus on measurable business outcomes and sustainable growth.</span>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-3 h-3 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">BSc in Engineering</div>
-                    <div className="text-gray-600">Cairo University</div>
+                    <span className="font-semibold text-gray-900">Collaboration:</span>
+                    <span className="text-gray-600"> We work closely with clients to ensure solutions align with their vision and goals.</span>
                   </div>
                 </div>
               </div>
@@ -104,7 +122,7 @@ export default function About() {
           >
             {/* Skills */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Technical Skills</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Technical Expertise</h3>
               <div className="space-y-4">
                 {skills.map((skill, index) => (
                   <div key={skill.name}>
@@ -126,53 +144,31 @@ export default function About() {
               </div>
             </div>
 
-            {/* Expertise Areas */}
+            {/* Key Achievements */}
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Areas of Expertise</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Key Achievements</h3>
               <div className="grid sm:grid-cols-2 gap-4">
-                {expertise.map((item, index) => (
-                  <motion.div
-                    key={item.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    className="p-4 bg-gray-50 rounded-lg"
-                  >
-                    <div className="flex items-center mb-2">
-                      <item.icon className="h-5 w-5 text-primary-600 mr-2" />
-                      <h4 className="font-semibold text-gray-900 text-sm">{item.title}</h4>
-                    </div>
-                    <p className="text-sm text-gray-600">{item.description}</p>
-                  </motion.div>
-                ))}
+                <div className="p-4 bg-primary-50 rounded-lg">
+                  <div className="text-2xl font-bold text-primary-600 mb-1">3</div>
+                  <div className="text-sm text-gray-700">Peer-reviewed Publications</div>
+                </div>
+                <div className="p-4 bg-primary-50 rounded-lg">
+                  <div className="text-2xl font-bold text-primary-600 mb-1">50+</div>
+                  <div className="text-sm text-gray-700">Projects Delivered</div>
+                </div>
+                <div className="p-4 bg-primary-50 rounded-lg">
+                  <div className="text-2xl font-bold text-primary-600 mb-1">100%</div>
+                  <div className="text-sm text-gray-700">Client Satisfaction</div>
+                </div>
+                <div className="p-4 bg-primary-50 rounded-lg">
+                  <div className="text-2xl font-bold text-primary-600 mb-1">15+</div>
+                  <div className="text-sm text-gray-700">Technologies Mastered</div>
+                </div>
               </div>
             </div>
           </motion.div>
         </div>
-
-        {/* Key Achievements */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="mt-16 grid md:grid-cols-3 gap-8"
-        >
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600 mb-2">7+</div>
-            <div className="text-gray-600">Years of Experience</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600 mb-2">50+</div>
-            <div className="text-gray-600">Projects Completed</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600 mb-2">15+</div>
-            <div className="text-gray-600">Technologies Mastered</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   )
-} 
+}

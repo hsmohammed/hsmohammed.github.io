@@ -30,13 +30,14 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-accent-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">HM</span>
+                <span className="text-white font-bold text-sm">LA</span>
               </div>
-              <span className="text-xl font-bold">Hossameldin Mohammed</span>
+              <span className="text-xl font-bold">Lucira AI</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Senior Machine Learning Engineer and Consultant helping businesses 
-              transform their operations with cutting-edge AI and ML solutions.
+              Trusted AI consulting with clarity and precision. We deliver cutting-edge 
+              machine learning solutions that transform businesses through ethical AI 
+              implementation and measurable results.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -54,33 +55,28 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
                 <a href="#services" className="hover:text-white transition-colors duration-200">
-                  Machine Learning Development
+                  Services
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white transition-colors duration-200">
-                  Computer Vision
+                <a href="#about" className="hover:text-white transition-colors duration-200">
+                  About
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white transition-colors duration-200">
-                  Natural Language Processing
+                <a href="/blog" className="hover:text-white transition-colors duration-200">
+                  Blog
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white transition-colors duration-200">
-                  MLOps & Infrastructure
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-white transition-colors duration-200">
-                  AI Strategy Consulting
+                <a href="#contact" className="hover:text-white transition-colors duration-200">
+                  Contact
                 </a>
               </li>
             </ul>
@@ -111,7 +107,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Hossameldin Mohammed. All rights reserved.
+              © {new Date().getFullYear()} Lucira AI. All rights reserved.
             </div>
             <div className="flex items-center text-gray-400 text-sm">
               <span>Made with</span>
@@ -123,4 +119,4 @@ export default function Footer() {
       </div>
     </footer>
   )
-} 
+}

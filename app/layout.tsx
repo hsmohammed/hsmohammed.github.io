@@ -5,22 +5,22 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Hossameldin Mohammed - Machine Learning Consultant',
-  description: 'Senior Machine Learning Engineer and Consultant with 7+ years of experience in AI, ML, and data science. Specializing in end-to-end ML solutions, NLP, computer vision, and ML automation.',
-  keywords: ['Machine Learning', 'AI Consultant', 'Data Science', 'ML Engineer', 'NLP', 'Computer Vision', 'ML Automation'],
-  authors: [{ name: 'Hossameldin Mohammed' }],
-  creator: 'Hossameldin Mohammed',
+  title: 'Lucira AI - AI Solutions for Clarity, Performance, and Impact',
+  description: 'Lucira AI delivers cutting-edge machine learning solutions that transform businesses through ethical AI implementation, measurable results, and sustainable growth strategies.',
+  keywords: ['AI Consulting', 'Machine Learning', 'ML Solutions', 'AI Strategy', 'NLP', 'Computer Vision', 'MLOps', 'Data Science'],
+  authors: [{ name: 'Lucira AI' }],
+  creator: 'Lucira AI',
   openGraph: {
-    title: 'Hossameldin Mohammed - Machine Learning Consultant',
-    description: 'Senior Machine Learning Engineer and Consultant with 7+ years of experience in AI, ML, and data science.',
+    title: 'Lucira AI - AI Solutions for Clarity, Performance, and Impact',
+    description: 'Lucira AI delivers cutting-edge machine learning solutions that transform businesses through ethical AI implementation, measurable results, and sustainable growth strategies.',
     url: 'https://hossameldinmohammed.netlify.app',
-    siteName: 'Hossameldin Mohammed',
+    siteName: 'Lucira AI',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Hossameldin Mohammed - ML Consultant',
+        alt: 'Lucira AI - AI Consulting',
       },
     ],
     locale: 'en_US',
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hossameldin Mohammed - Machine Learning Consultant',
-    description: 'Senior Machine Learning Engineer and Consultant with 7+ years of experience in AI, ML, and data science.',
+    title: 'Lucira AI - AI Solutions for Clarity, Performance, and Impact',
+    description: 'Lucira AI delivers cutting-edge machine learning solutions that transform businesses through ethical AI implementation, measurable results, and sustainable growth strategies.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -62,4 +62,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-} 
+}

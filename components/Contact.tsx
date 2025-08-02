@@ -233,7 +233,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Response Time</h4>
-                    <p className="text-gray-600">Within 24 hours</p>
+                    <p className="text-gray-600">Replies within 24 hours</p>
                   </div>
                 </div>
               </div>
@@ -249,8 +249,8 @@ export default function Contact() {
                     <span className="text-sm font-bold">1</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Initial Discussion</h4>
-                    <p className="text-sm opacity-90">We'll discuss your project requirements and goals</p>
+                    <h4 className="font-semibold mb-1">Inquiry</h4>
+                    <p className="text-sm opacity-90">Initial project discussion and requirements gathering</p>
                   </div>
                 </div>
                 
@@ -259,8 +259,8 @@ export default function Contact() {
                     <span className="text-sm font-bold">2</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Proposal & Planning</h4>
-                    <p className="text-sm opacity-90">I'll provide a detailed proposal and project timeline</p>
+                    <h4 className="font-semibold mb-1">Discovery Call</h4>
+                    <p className="text-sm opacity-90">Deep dive into your business needs and technical requirements</p>
                   </div>
                 </div>
                 
@@ -269,8 +269,8 @@ export default function Contact() {
                     <span className="text-sm font-bold">3</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Project Execution</h4>
-                    <p className="text-sm opacity-90">Development and implementation with regular updates</p>
+                    <h4 className="font-semibold mb-1">Proposal</h4>
+                    <p className="text-sm opacity-90">Detailed project plan, timeline, and investment proposal</p>
                   </div>
                 </div>
                 
@@ -279,8 +279,8 @@ export default function Contact() {
                     <span className="text-sm font-bold">4</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Deployment & Support</h4>
-                    <p className="text-sm opacity-90">Production deployment and ongoing support</p>
+                    <h4 className="font-semibold mb-1">Kickoff</h4>
+                    <p className="text-sm opacity-90">Project initiation and development phase begins</p>
                   </div>
                 </div>
               </div>
@@ -290,4 +290,4 @@ export default function Contact() {
       </div>
     </section>
   )
-} 
+}

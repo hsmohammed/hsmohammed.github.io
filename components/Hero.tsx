@@ -34,7 +34,7 @@ export default function Hero() {
               className="inline-flex items-center px-4 py-2 rounded-full bg-primary-100 text-primary-700 text-sm font-medium mb-6"
             >
               <span className="w-2 h-2 bg-primary-600 rounded-full mr-2"></span>
-              Available for Consulting Projects
+              AI solutions designed for clarity, performance, and impact
             </motion.div>
 
             <motion.h1
@@ -43,8 +43,8 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
             >
-              Transform Your Business with{' '}
-              <span className="gradient-text">AI & Machine Learning</span>
+              AI solutions designed for{' '}
+              <span className="gradient-text">clarity, performance, and impact</span>
             </motion.h1>
 
             <motion.p
@@ -53,9 +53,9 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-xl text-gray-600 mb-8 leading-relaxed"
             >
-              Senior Machine Learning Engineer with 7+ years of experience helping companies 
-              build and deploy cutting-edge AI solutions. From concept to production, 
-              I deliver scalable ML systems that drive real business value.
+              Lucira AI delivers cutting-edge machine learning solutions that transform 
+              businesses through ethical AI implementation, measurable results, and 
+              sustainable growth strategies.
             </motion.p>
 
             <motion.div
@@ -73,13 +73,13 @@ export default function Hero() {
                 }}
                 className="btn-primary text-lg px-8 py-4"
               >
-                Start Your Project
+                Schedule a Consultation
               </button>
               <button
                 onClick={scrollToServices}
                 className="btn-outline text-lg px-8 py-4"
               >
-                View Services
+                Explore Services
               </button>
             </motion.div>
 
@@ -92,15 +92,19 @@ export default function Hero() {
             >
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900">7+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
+                <div className="text-sm text-gray-600">Years of Experience</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900">50+</div>
-                <div className="text-sm text-gray-600">Projects Delivered</div>
+                <div className="text-sm text-gray-600">Clients Served</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gray-900">100%</div>
-                <div className="text-sm text-gray-600">Client Satisfaction</div>
+                <div className="text-2xl font-bold text-gray-900">100+</div>
+                <div className="text-sm text-gray-600">Models Deployed</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-gray-900">300%</div>
+                <div className="text-sm text-gray-600">Avg. ROI Delivered</div>
               </div>
             </motion.div>
           </motion.div>
@@ -126,7 +130,7 @@ export default function Hero() {
                   <div className="h-4 bg-gray-200 rounded w-2/3"></div>
                 </div>
                 <div className="mt-6 p-4 bg-primary-50 rounded-lg">
-                  <div className="text-sm text-primary-700 font-medium">ML Model Performance</div>
+                  <div className="text-sm text-primary-700 font-medium">AI Model Performance</div>
                   <div className="text-2xl font-bold text-primary-900 mt-1">98.7%</div>
                   <div className="text-xs text-primary-600 mt-1">Accuracy Score</div>
                 </div>
