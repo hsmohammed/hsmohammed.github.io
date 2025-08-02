@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hossameldinmohammed.netlify.app'),
   title: 'Lucira AI - AI Solutions for Clarity, Performance, and Impact',
   description: 'Lucira AI delivers cutting-edge machine learning solutions that transform businesses through ethical AI implementation, measurable results, and sustainable growth strategies.',
   keywords: ['AI Consulting', 'Machine Learning', 'ML Solutions', 'AI Strategy', 'NLP', 'Computer Vision', 'MLOps', 'Data Science'],
