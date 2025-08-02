@@ -223,7 +223,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
-                    <p className="text-gray-600">Calgary, Canada (Remote work available)</p>
+                    <p className="text-gray-600">Vancouver, BC, Canada (Remote collaboration available)</p>
                   </div>
                 </div>
                 

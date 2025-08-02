@@ -97,7 +97,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <HiGlobe className="h-5 w-5 mr-3 text-primary-400" />
-                <span>Calgary, Canada</span>
+                <span>Vancouver, BC, Canada</span>
               </div>
             </div>
           </div>

@@ -7,8 +7,8 @@ const experience = [
   {
     company: 'Symend',
     position: 'Senior Machine Learning Engineer',
-    duration: '2022 - Present',
-    location: 'Calgary, Canada',
+    duration: '2023 - Present',
+    location: 'Vancouver, BC, Canada',
     description: 'Leading ML initiatives for customer engagement optimization, developing NLP solutions for automated communication systems.',
     achievements: [
       'Built end-to-end ML pipelines processing millions of customer interactions',
@@ -19,10 +19,10 @@ const experience = [
     technologies: ['Python', 'TensorFlow', 'NLP', 'AWS', 'Docker', 'Kubernetes']
   },
   {
-    company: 'Previous Company',
+    company: 'Sunia',
     position: 'Machine Learning Engineer',
-    duration: '2020 - 2022',
-    location: 'Vancouver, Canada',
+    duration: '2021 - 2023',
+    location: 'Vancouver, BC, Canada',
     description: 'Developed computer vision solutions for industrial automation and quality control systems.',
     achievements: [
       'Designed computer vision models achieving 95%+ accuracy in defect detection',
@@ -33,10 +33,23 @@ const experience = [
     technologies: ['Python', 'PyTorch', 'OpenCV', 'Computer Vision', 'Edge Computing']
   },
   {
-    company: 'Research Institution',
-    position: 'Research Assistant',
-    duration: '2018 - 2020',
-    location: 'Vancouver, Canada',
+    company: 'Loxz Digital',
+    position: 'Machine Learning Engineer',
+    duration: '2020 - 2021',
+    location: 'Vancouver, BC, Canada',
+    description: 'Built recommendation systems for e-commerce platforms.',
+    achievements: [
+      'Built recommendation systems for e-commerce platforms',
+      'Developed personalized product recommendations for customers',
+      'Optimized search algorithms for improved user experience'
+    ],
+    technologies: ['Python', 'PyTorch', 'OpenCV', 'Computer Vision', 'Edge Computing', 'Recommendation Systems']
+  },
+  {
+    company: 'University of British Columbia',
+    position: 'Research Scientist',
+    duration: '2017 - 2020',
+    location: 'Vancouver, BC, Canada',
     description: 'Conducted research in generative machine learning and reinforcement learning applications.',
     achievements: [
       'Published 3 peer-reviewed papers on generative AI and RL',
