@@ -8,7 +8,7 @@ const testimonials = [
     name: 'Sarah Johnson',
     position: 'CTO',
     company: 'TechCorp Solutions',
-    content: 'Hossameldin delivered an exceptional ML solution that transformed our customer engagement. His expertise in NLP and ability to translate complex requirements into practical solutions was invaluable.',
+    content: 'Hossam delivered an exceptional ML solution that transformed our customer engagement. His expertise in NLP and ability to translate complex requirements into practical solutions was invaluable.',
     rating: 5,
     image: '/api/placeholder/60/60'
   },
@@ -16,7 +16,7 @@ const testimonials = [
     name: 'Michael Chen',
     position: 'Head of AI',
     company: 'InnovateAI',
-    content: 'Working with Hossameldin was a game-changer for our AI strategy. His deep understanding of both technical implementation and business value helped us achieve results beyond our expectations.',
+    content: 'Working with Hossam was a game-changer for our AI strategy. His deep understanding of both technical implementation and business value helped us achieve results beyond our expectations.',
     rating: 5,
     image: '/api/placeholder/60/60'
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: 'Emily Rodriguez',
     position: 'Product Manager',
     company: 'DataFlow Systems',
-    content: 'Hossameldin\'s expertise in MLOps and model deployment helped us scale our ML infrastructure efficiently. His systematic approach and attention to detail ensured smooth project delivery.',
+    content: 'Hossam\'s expertise in MLOps and model deployment helped us scale our ML infrastructure efficiently. His systematic approach and attention to detail ensured smooth project delivery.',
     rating: 5,
     image: '/api/placeholder/60/60'
   },
@@ -32,7 +32,7 @@ const testimonials = [
     name: 'David Kim',
     position: 'VP Engineering',
     company: 'SmartManufacturing',
-    content: 'The computer vision solution Hossameldin developed for our quality control system exceeded all our metrics. His technical skills combined with practical business understanding is rare to find.',
+    content: 'The computer vision solution Hossam developed for our quality control system exceeded all our metrics. His technical skills combined with practical business understanding is rare to find.',
     rating: 5,
     image: '/api/placeholder/60/60'
   },
@@ -40,7 +40,7 @@ const testimonials = [
     name: 'Lisa Thompson',
     position: 'AI Director',
     company: 'FutureTech',
-    content: 'Hossameldin\'s strategic approach to AI implementation helped us build a robust foundation for our ML initiatives. His guidance on best practices and architecture decisions was invaluable.',
+    content: 'Hossam\'s strategic approach to AI implementation helped us build a robust foundation for our ML initiatives. His guidance on best practices and architecture decisions was invaluable.',
     rating: 5,
     image: '/api/placeholder/60/60'
   },
@@ -48,7 +48,7 @@ const testimonials = [
     name: 'Robert Wilson',
     position: 'CEO',
     company: 'StartupXYZ',
-    content: 'As a startup, we needed someone who could wear multiple hats and deliver quickly. Hossameldin exceeded our expectations with his end-to-end ML solution and ongoing support.',
+    content: 'As a startup, we needed someone who could wear multiple hats and deliver quickly. Hossam exceeded our expectations with his end-to-end ML solution and ongoing support.',
     rating: 5,
     image: '/api/placeholder/60/60'
   }
