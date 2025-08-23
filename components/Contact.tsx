@@ -209,10 +209,10 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
                     <a 
-                      href="mailto:hossam.i.sa@gmail.com" 
+                      href="mailto:hossam.mohammed@luciraai.net" 
                       className="text-primary-600 hover:text-primary-700 transition-colors duration-200"
                     >
-                      hossam.i.sa@gmail.com
+                      hossam.mohammed@luciraai.net
                     </a>
                   </div>
                 </div>

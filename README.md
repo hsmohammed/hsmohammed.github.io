@@ -159,7 +159,7 @@ This project is licensed under the MIT License.
 ## 📞 Support
 
 For support or questions, please contact:
-- Email: hossam.i.sa@gmail.com
+- Email: hossam.mohammed@luciraai.net
 - LinkedIn: [Hossameldin Mohammed](https://www.linkedin.com/in/hsmohammed/)
 
 ---

@@ -89,10 +89,10 @@ export default function Footer() {
               <div className="flex items-center">
                 <HiMail className="h-5 w-5 mr-3 text-primary-400" />
                 <a 
-                  href="mailto:hossam.i.sa@gmail.com"
+                  href="mailto:hossam.mohammed@luciraai.net"
                   className="hover:text-white transition-colors duration-200"
                 >
-                  hossam.i.sa@gmail.com
+                  hossam.mohammed@luciraai.net
                 </a>
               </div>
               <div className="flex items-center">
